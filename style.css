@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error {
+    color: #f00;
+    padding: 10px;
+    margin: 0 0 15px 0;
+}
+
+.calculator-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    padding: 8px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.form-group select {
+    padding: 3px;
+}
+
+.output {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.submit {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(51, 51, 134);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
